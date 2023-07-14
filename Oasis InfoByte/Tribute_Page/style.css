@@ -1,0 +1,228 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+body{
+    background-color: gray;
+}
+.main-content {
+  height: 100%;
+  width: 85%;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  right: 0;
+  background-color: #00203fff;
+  
+}
+
+.bio {
+  margin-left: 50px;
+  height: 90%;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#image {
+  max-height: 400px;
+  max-width: 325px;
+  border-radius: 50%;
+  display: block;
+}
+
+#title {
+  margin-left: 20px;
+  margin-top: 80x;
+}
+
+
+h1 {
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-size: 48px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+#tribute-info {
+  min-width: 100px;
+  max-width: 800px;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 80x;
+}
+
+
+#tribute-link {
+  display: block;
+  min-height: 50px;
+  min-width: 180px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  background: #e74c3c;
+  width: 50%;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin-top: 1rem;
+  margin-left: 20px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.quote{
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 48px;
+  float: left;
+  margin: 200px 0 0 100px;
+}
+.quotations{
+  font-size: 20px;
+  color: white;
+  min-width: 100px;
+  max-width: 700px;
+}
+
+.achievement{
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 48px;
+  float: right;
+  margin: 200px 70px 0 0;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.detail{
+  font-size: 20px;
+  color: white;
+  min-width: 100px;
+  max-width: 800px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+
+/* SMALL */
+
+.main-content-small {
+  height: 900px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+  background-color: #00203fff;
+}
+
+.info-small{
+  margin: auto;
+}
+
+#image-small {
+  max-height: 325px;
+  max-width: 325px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+#title-small {
+  text-align: center;
+  margin-top: 80x;
+}
+
+.h1-small {
+  font-weight: 400;
+  font-family: "Montserrat";
+  font-size: 48px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+#tribute-info-small {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 50px;
+  max-width: 500px;
+  font-size: 20px;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#tribute-link-small {
+  display: block;
+  min-height: 50px;
+  min-width: 180px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #fff;
+  background: #e74c3c;
+  width: 50%;
+  text-align: center;
+  padding: 1rem 2rem;
+  margin: 0 auto;
+  border-radius: 3px;
+  text-transform: uppercase;
+  transition: all 0.2s;
+  box-sizing: border-box;
+}
+
+.quote-small{
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 48px;
+  margin: 200px 70px 0 70px;
+  text-align: center;
+}
+.quotations-small{
+  font-size: 20px;
+  color: white;
+  min-width: 100px;
+  max-width: 500px;
+  margin: auto;
+}
+
+.achievement-small{
+  position: relative;
+  font-family: "Montserrat";
+  font-size: 48px;
+  margin: 200px 70px 0 70px;
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.detail-small{
+  font-size: 20px;
+  color: white;
+  min-width: 100px;
+  max-width: 700px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  margin: auto;
+}
+
+#small {
+  display: none;
+}
+
+/* RESPONSIVE WEB DESIGN */
+
+@media screen and (max-width: 1050px) {
+  #small {
+    display: inline-block;
+  }
+  #big {
+    display: none;
+  }
+}

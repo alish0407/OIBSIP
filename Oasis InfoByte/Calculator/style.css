@@ -1,0 +1,47 @@
+body{
+    background: #0C0032;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+.calculator{
+    display: flexbox;
+    background: #0f1117;
+    padding: 40px 15px;
+    margin: 100px auto;
+    width: 350px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#input {
+    border-radius: 5px;
+    height: 90px;
+    width: 305px;
+    font-size: 35px;
+    color: #3500D3;
+    font-weight: bold;
+}
+
+table{
+    margin: auto;
+    margin-top: 10px;
+}
+
+table tr td {
+    padding: 8px 10px;
+    background-color: black;
+}
+table tr td button{
+    padding: 12px 17px;
+    color: #3500D3;
+    font-size: 25px;
+}
+table tr td p{
+    padding: 10px 15px;
+    color: #3500D3;
+    margin: 0;
+    cursor: pointer;
+}
